@@ -18,7 +18,7 @@ export function ScrollProgress() {
 
   return (
     <motion.div
-      className="pointer-events-none fixed top-16 right-0 left-0 z-[60] h-0.5 origin-left bg-mint"
+      className="pointer-events-none fixed top-16 right-0 left-0 z-30 h-0.5 origin-left bg-mint"
       style={{ scaleX: reducedMotion ? scrollYProgress : scaleX }}
       aria-hidden="true"
     />
