@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { About } from './components/About'
 import { Achievements } from './components/Achievements'
 import { Contact } from './components/Contact'
@@ -24,6 +25,7 @@ export default function App() {
         <Achievements />
         <Contact />
       </main>
+      <Analytics />
     </div>
   )
 }
